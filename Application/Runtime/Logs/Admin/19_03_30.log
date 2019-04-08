@@ -1,0 +1,502 @@
+[ 2019-03-30T18:56:12+08:00 ] 115.171.167.73 /index.php/Admin/Theme/add.html?id=18&page=0&theme_name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_theme` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0005s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-03-30T18:56:34+08:00 ] 115.171.167.73 /index.php/Admin/Theme/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `tp_theme` SET `theme_position`='1',`theme_name`='清洁仪',`proid`='13,12,11',`id`='18' WHERE ( id=18 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_theme` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant Ymd - assumed 'Ymd' /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 127 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/wechat_shop/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: UPDATE `tp_theme` SET `id`='18',`theme_name`='清洁仪',`theme_img`='UploadFiles/theme/20190330/1553943394101546.jpg',`theme_addtime`='1553755896',`proid`='13,12,11',`theme_position`='1' WHERE ( id=18 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+
+[ 2019-03-30T18:56:35+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-03-30T18:56:37+08:00 ] 115.171.167.73 /index.php/Admin/Theme/add.html?id=19&page=0&theme_name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_theme` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0004s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `photo_x` FROM `tp_product` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2019-03-30T18:56:55+08:00 ] 115.171.167.73 /index.php/Admin/Theme/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `tp_theme` SET `theme_position`='1',`theme_name`='美眼仪',`proid`='13,12,11',`id`='19' WHERE ( id=19 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_theme` WHERE ( id=19 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant Ymd - assumed 'Ymd' /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 127 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /home/www/wechat_shop/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: UPDATE `tp_theme` SET `id`='19',`theme_name`='美眼仪',`theme_img`='UploadFiles/theme/20190330/1553943415646660.jpg',`theme_addtime`='1553755928',`proid`='13,12,11',`theme_position`='1' WHERE ( id=19 ) [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2019-03-30T18:56:56+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2019-03-30T18:57:01+08:00 ] 115.171.167.73 /index.php/Admin/Theme/del.html?id=20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_theme` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `tp_theme` WHERE `id` = 20 [ RunTime:0.0007s ]
+
+[ 2019-03-30T18:57:01+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-03-30T18:58:10+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2019-03-30T18:58:18+08:00 ] 115.171.167.73 /index.php/Admin/Theme/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 42 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 43 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 52 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 60 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 72 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 79 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 79 行.
+NOTIC: [8] Undefined variable: voucher /home/www/wechat_shop/Application/Runtime/Cache/Admin/216c4592fb3be337d72205f1ddf43ef4.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2019-03-30T18:58:37+08:00 ] 115.171.167.73 /index.php/Admin/Theme/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `tp_theme` (`theme_position`,`theme_name`,`proid`,`id`,`theme_addtime`) VALUES ('2','当季新品','all',NULL,'1553943517') [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+
+[ 2019-03-30T18:58:38+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant 底部 - assumed '底部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2019-03-30T18:58:48+08:00 ] 115.171.167.73 /index.php/Admin/Theme/add.html?id=30&page=0&theme_name=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_theme` WHERE ( id=30 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2019-03-30T18:58:50+08:00 ] 115.171.167.73 /index.php/Admin/Theme/get_pro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 180 行.
+NOTIC: [8] Undefined index: type /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 183 行.
+NOTIC: [8] Undefined index: tuijian /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 184 行.
+NOTIC: [8] Undefined index: name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `tp_product` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_product` WHERE ( 1=1 AND del<1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 205 行.
+SQL: SELECT * FROM `tp_product` WHERE ( 1=1 AND del<1 ) ORDER BY addtime desc,id desc LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `tp_category` WHERE ( id=27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_category` WHERE ( id=26 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `name` FROM `tp_category` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-03-30T18:58:55+08:00 ] 115.171.167.73 /index.php/Admin/Theme/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/www/wechat_shop/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `tp_theme` SET `theme_position`='2',`theme_name`='当季新品',`proid`='13,12,11',`id`='30' WHERE ( id=30 ) [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+
+[ 2019-03-30T18:58:56+08:00 ] 115.171.167.73 /index.php/Admin/Theme/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `tp_news_cat` [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant SESSION_PREFIX - assumed 'SESSION_PREFIX' /home/www/wechat_shop/Application/Admin/Controller/CommonController.class.php 第 27 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /home/www/wechat_shop/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `tp_menu` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_menu` ORDER BY step asc  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `tp_theme` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 30 行.
+NOTIC: [8] Undefined index: theme_name /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_theme` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: page /home/www/wechat_shop/Application/Admin/Controller/ThemeController.class.php 第 44 行.
+SQL: SELECT * FROM `tp_theme` ORDER BY id desc  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant 底部 - assumed '底部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+NOTIC: [8] Use of undefined constant 顶部 - assumed '顶部' /home/www/wechat_shop/Application/Runtime/Cache/Admin/a65cc03c25a2db17f88916b75f1702a6.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+

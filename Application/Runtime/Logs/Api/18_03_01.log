@@ -1,0 +1,94 @@
+[ 2018-03-01T16:50:28+08:00 ] ::1 /wechat_shop_3.4/index.php/api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+
+[ 2018-03-01T16:50:55+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000128s ]
+ERR: Call to undefined function Api\Controller\getOrderTracesByJson()
+
+[ 2018-03-01T16:51:15+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: Call to undefined function Api\Controller\getOrderTracesByJson()
+
+[ 2018-03-01T16:51:17+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: Call to undefined function Api\Controller\getOrderTracesByJson()
+
+[ 2018-03-01T16:51:38+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/getOrderTracesByJson
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: Call to undefined function Api\Controller\sendPost()
+
+[ 2018-03-01T16:51:57+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/getOrderTracesByJson
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: Call to undefined function Api\Controller\sendPost()
+
+[ 2018-03-01T16:52:00+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+ERR: Call to undefined function Api\Controller\getOrderTracesByJson()
+
+[ 2018-03-01T16:52:01+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: Call to undefined function Api\Controller\getOrderTracesByJson()
+
+[ 2018-03-01T16:52:23+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2018-03-01T16:54:01+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+
+[ 2018-03-01T16:59:00+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2018-03-01T17:01:17+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+
+[ 2018-03-01T17:04:35+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: Call to undefined function encrypt()
+
+[ 2018-03-01T17:04:38+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: Call to undefined function encrypt()
+
+[ 2018-03-01T17:05:57+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+
+[ 2018-03-01T17:09:38+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+
+[ 2018-03-01T17:11:04+08:00 ] ::1 /wechat_shop_3.4/index.php/api/order/order_express
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+
